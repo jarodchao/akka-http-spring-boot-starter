@@ -609,8 +609,8 @@ public class User {
  -'   ''     `._)     `._)-'   ''             (       (       (        (_..--'   \__)(/  \) `-..-'   \__)(/  \)
 
 
-Akka Version: 2.5.0  (v2.5.0)
-Akka Http Version: 10.0.5 (v10.0.5)
+Akka Version: 2.5.1  (v2.5.1)
+Akka Http Version: 10.0.6 (v10.0.6)
 Application Name: paddington-test
 Bind Host: 0.0.0.0
 Bind Port: 8080
