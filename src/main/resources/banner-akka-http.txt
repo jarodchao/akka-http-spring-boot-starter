@@ -1,0 +1,15 @@
+${AnsiColor.BRIGHT_GREEN}
+               _        _             \\  //(o)__(o)(o)__(o) ))          oo_     wWw ()_()wWw    wWw wWw ()_()     
+    /)  (OO) .' )(OO) .' )   /)       (o)(o)(__  __)(__  __)(o0)-.      /  _)-<  (O)_(O o)(O)    (O) (O)_(O o)     
+  (o)(O) ||_/ .'  ||_/ .'  (o)(O)     ||  ||  (  )    (  )   | (_))     \__ `.   / __)|^_\( \    / ) / __)|^_\     
+   //\\  |   /    |   /     //\\      |(__)|   )(      )(    | .-'         `. | / (   |(_))\ \  / / / (   |(_))    
+  |(__)| ||\ \    ||\ \    |(__)|     /.--.\  (  )    (  )   |(            _| |(  _)  |  / /  \/  \(  _)  |  /     
+  /,-. |(/\)\ `. (/\)\ `.  /,-. |    -'    `-  )/      )/     \)        ,-'   | \ \_  )|\\ \ `--' / \ \_  )|\\     
+ -'   ''     `._)     `._)-'   ''             (       (       (        (_..--'   \__)(/  \) `-..-'   \__)(/  \)    
+
+${AnsiColor.BRIGHT_RED}
+Akka Version: ${akka.version} ${akka.formatted-version}
+Akka Http Version: ${akka-http.version}${akka-http.formatted-version}
+Application Name: ${application.name}
+Bind Host: ${bind.host}
+Bind Port: ${bind.port}    

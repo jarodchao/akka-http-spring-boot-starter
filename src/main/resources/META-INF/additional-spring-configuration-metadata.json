@@ -1,0 +1,68 @@
+{
+  "groups": [
+    {
+      "name": "spring.akka.http",
+      "type": "c.j.framework.http.AkkaHttpProperties",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties"
+    },
+    {
+      "name": "spring.akka.http.Route",
+      "type": "c.j.framework.http.AkkaHttpProperties$Route",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties",
+      "sourceMethod": "getRoutes()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.akka.http.applicationName",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties"
+    },
+    {
+      "name": "spring.akka.http.bindHost",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties"
+    },
+    {
+      "name": "spring.akka.http.port",
+      "type": "java.lang.Integer",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties"
+    },
+    {
+      "name": "spring.akka.http.contextPath",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties"
+    },
+    {
+      "name": "spring.akka.http.requestClass",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties"
+    },
+    {
+      "name": "spring.akka.http.responseClass",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties"
+    },
+    {
+      "name": "spring.akka.http.route.httpMethod",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties$Route"
+    },
+    {
+      "name": "spring.akka.http.route.url",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties$Route"
+    },
+    {
+      "name": "spring.akka.http.route.grooveId",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties$Route"
+    },
+    {
+      "name": "spring.akka.http.route.method",
+      "type": "java.lang.String",
+      "sourceType": "c.j.framework.http.AkkaHttpProperties$Route"
+    }
+
+  ]
+}
