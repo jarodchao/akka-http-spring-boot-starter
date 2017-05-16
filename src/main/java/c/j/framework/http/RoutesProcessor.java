@@ -94,8 +94,6 @@ public abstract class RoutesProcessor extends AllDirectives implements Initializ
         for (AkkaHttpProperties.Route route : routes) {
             log.info("Route:{} Method:{} GrooveId:{} Request:{} Response:{}",route.getUrl(),route.getMethod(),route.getGrooveId(),route
             .getRequestClass(),route.getResponseClass());
-            System.out.println(String.format("Route:{%s} Method:{%s} GrooveId:{%s} Request:{%s} Response:{%s}",route.getUrl(),route.getMethod(),route.getGrooveId(),route
-                    .getRequestClass(),route.getResponseClass()));
             Object bean = groove.get(route.getGrooveId());
             Class in = Class.forName(route.getRequestClass());
             Method method = ReflectionUtils.findMethod(bean.getClass(), route.getMethod(), in);

@@ -8,9 +8,9 @@
 ## Maven
 ```
 <dependency>
-    <groupId>com.gomefinance.framework.http</groupId>
+    <groupId>c.j.framework.http</groupId>
     <artifactId>akka-http-spring-boot-starter</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 ## Akka
